@@ -1,0 +1,43 @@
+
+Part A
+./cache_simulator -f Trace.txt -c 4 -b 16 -a 1
+./cache_simulator -f Trace.txt -c 8 -b 16 -a 1
+./cache_simulator -f Trace.txt -c 16 -b 16 -a 1
+./cache_simulator -f Trace.txt -c 32 -b 16 -a 1
+
+./cache_simulator -f Trace.txt -c 4 -b 32 -a 1
+./cache_simulator -f Trace.txt -c 8 -b 32 -a 1
+./cache_simulator -f Trace.txt -c 16 -b 32 -a 1
+./cache_simulator -f Trace.txt -c 32 -b 32 -a 1
+
+./cache_simulator -f Trace.txt -c 4 -b 64 -a 1
+./cache_simulator -f Trace.txt -c 8 -b 64 -a 1
+./cache_simulator -f Trace.txt -c 16 -b 64 -a 1
+./cache_simulator -f Trace.txt -c 32 -b 64 -a 1
+
+./cache_simulator -f Trace.txt -c 4 -b 128 -a 1
+./cache_simulator -f Trace.txt -c 8 -b 128 -a 1
+./cache_simulator -f Trace.txt -c 16 -b 128 -a 1
+./cache_simulator -f Trace.txt -c 32 -b 128 -a 1
+
+
+Part B
+./cache_simulator -f Trace.txt -c 4 -b 32 -a 1
+./cache_simulator -f Trace.txt -c 8 -b 32 -a 1
+./cache_simulator -f Trace.txt -c 16 -b 32 -a 1
+./cache_simulator -f Trace.txt -c 32 -b 32 -a 1
+
+./cache_simulator -f Trace.txt -c 4 -b 32 -a 2
+./cache_simulator -f Trace.txt -c 8 -b 32 -a 2
+./cache_simulator -f Trace.txt -c 16 -b 32 -a 2
+./cache_simulator -f Trace.txt -c 32 -b 32 -a 2
+
+./cache_simulator -f Trace.txt -c 4 -b 32 -a 4
+./cache_simulator -f Trace.txt -c 8 -b 32 -a 4
+./cache_simulator -f Trace.txt -c 16 -b 32 -a 4
+./cache_simulator -f Trace.txt -c 32 -b 32 -a 4
+
+./cache_simulator -f Trace.txt -c 4 -b 32 -a 8
+./cache_simulator -f Trace.txt -c 8 -b 32 -a 8
+./cache_simulator -f Trace.txt -c 16 -b 32 -a 8
+./cache_simulator -f Trace.txt -c 32 -b 32 -a 8
